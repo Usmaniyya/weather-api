@@ -68,3 +68,15 @@ form button {
 span {
     font-weight: 500;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 300px;
+    }
+    form input {
+        width: 65%;
+    }
+    form button {
+        width: 35%;
+    }
+}
